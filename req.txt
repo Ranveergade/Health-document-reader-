@@ -1,0 +1,23 @@
+# ─────────────────────────────────────────────
+# Healthcare Document Assistant — Requirements
+# ─────────────────────────────────────────────
+# Install with:
+#   pip install -r requirements.txt
+
+# Web UI framework
+streamlit>=1.35.0
+
+# Google Gemini API — NEW SDK (google-genai, not google-generativeai)
+google-genai>=1.0.0
+
+# PDF text extraction
+pdfplumber>=0.11.0
+
+# Numerical computing
+numpy>=1.26.0
+
+# Load API keys from .env file
+python-dotenv>=1.0.0
+
+# PDF utility used internally by pdfplumber
+Pillow>=10.0.0
